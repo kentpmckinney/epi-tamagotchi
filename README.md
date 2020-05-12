@@ -62,3 +62,4 @@ Kent McKinney - [GitHub](https://github.com/kentpmckinney) - [LinkedIn](https://
 
 ## Acknowledgments
 
+https://www.learnhowtoprogram.com/intermediate-javascript/asynchrony-and-apis/tamagotchi-animal-farm-pandemic-clone-timed-flashcards-two-day-project
