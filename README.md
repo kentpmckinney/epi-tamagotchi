@@ -38,15 +38,15 @@ Git (optional but recommended)
 
 ## Running Automated Tests
 
-how to run the automated tests
+Tests are under ``__tests__``
 
 ```
-example
+npm run test
 ```
 
 ## Deployment
 
-
+Run the command 'npm run build' and deploy the files 'index.html' and 'bundle.js' in the root directory
 
 ## Technologies Used
 
@@ -57,8 +57,9 @@ example
 ## Authors
 
 Kent McKinney - [GitHub](https://github.com/kentpmckinney) - [LinkedIn](https://www.linkedin.com/in/kentpmckinney/)
+Austin Schrader
 
-### Copyright &copy; 2020 Kent P. McKinney
+### Copyright &copy; 2020 Kent P. McKinney and Austin Schrader
 
 ## Acknowledgments
 

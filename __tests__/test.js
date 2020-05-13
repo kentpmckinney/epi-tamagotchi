@@ -1,6 +1,4 @@
 import { Tamagotchi } from '../src/Tamagotchi.js';
-import { JestEnvironment } from '@jest/environment';
-
 
 describe('test', () => {
 
@@ -27,7 +25,7 @@ describe('test', () => {
 
 		let expected = "Austin";
 		let tamagotchi = new Tamagotchi("Austin");
-		
+
 		//tamagotchi.consumeFood();
 		jest.advanceTimersByTime(9001);
 		expect(tamagotchi.foodLevel).toEqual(21);
@@ -48,7 +46,7 @@ describe('test', () => {
 		let currentFoodLevel = tamagotchi.foodLevel;
 		tamagotchi.die();
 		jest.advanceTimersByTime(9001);
-		expect(tamagotchi.foodLevel).toEqual(currentFoodLevel); 
+		expect(tamagotchi.foodLevel).toEqual(currentFoodLevel);
 	});
 
 
